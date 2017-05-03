@@ -1,0 +1,1 @@
+select isNull(MAX(idLancamentoCadastroPedidoDesconto),0) from vw_Cad_LancamentoCadastroPedidoDescontoPendente

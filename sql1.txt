@@ -1,0 +1,2 @@
+ Select idMedicoMediLabSalas, NomeConta from Cad_MedicoMediLabSalas 
+ Where NomeSalaCamim = 'LCarneiro' AND idEndereco = 2

@@ -1,0 +1,20 @@
+Select 'EDSON SALES NERY' as NomePaciente, '58506A' as Matricula, 
+'1556792A' As Talao, '12772643' As idLancamento, '08/06/2015' As DataColeta, 
+'' As Exames, '238' as NumeroColeta, 'UNINALISE' as Setor, '' as Urgente, '' as CorDoTubo, '' as CorNome 
+ Union 
+Select 'EDSON SALES NERY' as NomePaciente, '58506A' as Matricula, 
+'1556792A' As Talao, '12772643' As idLancamento, '08/06/2015' As DataColeta, 
+'T3 T4LIV' As Exames, '238' as NumeroColeta, ' --- ' as Setor, '' as Urgente, '65535' as CorDoTubo, '' as CorNome 
+ Union 
+Select 'EDSON SALES NERY' as NomePaciente, '58506A' as Matricula, 
+'1556792A' As Talao, '12772643' As idLancamento, '08/06/2015' As DataColeta, 
+'CREAT GLICO LIPID POTAS SODIO URÉIA' As Exames, '238' as NumeroColeta, 'BIOQUIMICA' as Setor, '' as Urgente, '65535' as CorDoTubo, '' as CorNome 
+ Union 
+Select 'EDSON SALES NERY' as NomePaciente, '58506A' as Matricula, 
+'1556792A' As Talao, '12772643' As idLancamento, '08/06/2015' As DataColeta, 
+'HEMOG' As Exames, '238' as NumeroColeta, 'HEMATOLOGIA' as Setor, '' as Urgente, '8388672' as CorDoTubo, '' as CorNome 
+ Union 
+Select 'EDSON SALES NERY' as NomePaciente, '58506A' as Matricula, 
+'1556792A' As Talao, '12772643' As idLancamento, '08/06/2015' As DataColeta, 
+'CONTROLE DO CLIENTE' As Exames, '238' as NumeroColeta, '--' as Setor, '' as Urgente, '' as CorDoTubo, '' as CorNome 
+ order by CorDoTubo, CorNome, Setor 

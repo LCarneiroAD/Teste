@@ -1,0 +1,4 @@
+o pdftotext.exe converte o arquivo pdf para txt, 
+o programa é usado pelo laboratorio.
+o sistema executa o programa transformando o pdf selecionado em um arquivo txt gravado na pasta temp do windows com o nomed e resultado.txt
+o arquivo pdf também é gravado na pasta temp com o nome de resultado.pdf

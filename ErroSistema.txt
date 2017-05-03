@@ -1,0 +1,77 @@
+date/time          : 2017-05-03, 16:18:03, 211ms
+computer name      : LCARNEIRONOTE
+user name          : LCarneiro
+operating system   : Windows 10 Tablet PC x64 build 14393
+system language    : Portuguese
+system up time     : 9 days
+program up time    : 6 minutes 52 seconds
+processors         : 4x Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz
+physical memory    : 1941/8073 MB (free/total)
+free disk space    : (C:) 96,72 GB
+display mode       : 1920x1080, 32 bit
+process id         : $279e4
+allocated memory   : 75,39 MB
+largest free block : 680,98 MB
+executable         : camimxe.exe
+exec. date/time    : 2017-05-03 15:54
+version            : 1.0.0.0
+compiled with      : Delphi XE3
+madExcept version  : 4.0.14
+callstack crc      : $eafed8bc, $760b0331, $760b0331
+exception number   : 2
+exception class    : EDatabaseError
+exception message  : Field 'AplicacaoEV' not found.
+
+main thread ($27924):
+006e041a +00de camimxe.exe  Data.DB                           DatabaseError
+006e04b9 +0031 camimxe.exe  Data.DB                           DatabaseErrorFmt
+006f65da +004e camimxe.exe  Data.DB                           TDataSet.FieldByName
+015639ae +015a camimxe.exe  uCad_LancamentoCadastro 3063  +24 TfCad_LancamentoCadastro.CarregaDependentes
+0155f9b7 +380f camimxe.exe  uCad_LancamentoCadastro 2996 +749 TfCad_LancamentoCadastro.btAcrescentarClick
+005b8e7b +006f camimxe.exe  Vcl.Controls                      TControl.Click
+005dbac2 +001e camimxe.exe  Vcl.StdCtrls                      TCustomButton.Click
+00742585 +00a5 camimxe.exe  Vcl.Buttons                       TBitBtn.Click
+005dc63c +0050 camimxe.exe  Vcl.StdCtrls                      TCustomButton.CMDialogKey
+005b8925 +02bd camimxe.exe  Vcl.Controls                      TControl.WndProc
+004acc5d +0019 camimxe.exe  madExcept                         InterceptClassDestroy
+00afff28 +0024 camimxe.exe  cxClasses                         TcxObjectLinkController.Destroy
+0040907c +0008 camimxe.exe  System                   546   +0 TObject.Free
+0045b2b8 +0008 camimxe.exe  System.SysUtils                   FreeAndNil
+00afffe8 +0014 camimxe.exe  cxClasses                         ReleaseObjectLinkControllerRefCount
+005bbba5 +002d camimxe.exe  Vcl.Controls                      TWinControl.Broadcast
+005bf530 +0000 camimxe.exe  Vcl.Controls                      TWinControl.CMDialogKey
+005b8925 +02bd camimxe.exe  Vcl.Controls                      TControl.WndProc
+005bf529 +000d camimxe.exe  Vcl.Controls                      TWinControl.CMChildKey
+005b8925 +02bd camimxe.exe  Vcl.Controls                      TControl.WndProc
+005bd3b9 +05c5 camimxe.exe  Vcl.Controls                      TWinControl.WndProc
+00626f28 +0244 camimxe.exe  Vcl.ComCtrls                      TToolBar.WndProc
+005bbba5 +002d camimxe.exe  Vcl.Controls                      TWinControl.Broadcast
+005bf530 +0000 camimxe.exe  Vcl.Controls                      TWinControl.CMDialogKey
+005b8925 +02bd camimxe.exe  Vcl.Controls                      TControl.WndProc
+005bd3b9 +05c5 camimxe.exe  Vcl.Controls                      TWinControl.WndProc
+005b8925 +02bd camimxe.exe  Vcl.Controls                      TControl.WndProc
+005bf529 +000d camimxe.exe  Vcl.Controls                      TWinControl.CMChildKey
+005b8925 +02bd camimxe.exe  Vcl.Controls                      TControl.WndProc
+005bd3b9 +05c5 camimxe.exe  Vcl.Controls                      TWinControl.WndProc
+00f0d776 +05a2 camimxe.exe  JvExMask                          TJvExCustomMaskEdit.WndProc
+005bbba5 +002d camimxe.exe  Vcl.Controls                      TWinControl.Broadcast
+005bf530 +0000 camimxe.exe  Vcl.Controls                      TWinControl.CMDialogKey
+0060bed3 +0063 camimxe.exe  Vcl.ComCtrls                      TPageControl.CMDialogKey
+005b8925 +02bd camimxe.exe  Vcl.Controls                      TControl.WndProc
+005bd3b9 +05c5 camimxe.exe  Vcl.Controls                      TWinControl.WndProc
+005bbba5 +002d camimxe.exe  Vcl.Controls                      TWinControl.Broadcast
+005bf530 +0000 camimxe.exe  Vcl.Controls                      TWinControl.CMDialogKey
+006ac786 +0092 camimxe.exe  Vcl.Forms                         TCustomForm.CMDialogKey
+005b8925 +02bd camimxe.exe  Vcl.Controls                      TControl.WndProc
+005bd3b9 +05c5 camimxe.exe  Vcl.Controls                      TWinControl.WndProc
+005db76c +006c camimxe.exe  Vcl.StdCtrls                      TButtonControl.WndProc
+005b8560 +0024 camimxe.exe  Vcl.Controls                      TControl.Perform
+005bf9c1 +00d1 camimxe.exe  Vcl.Controls                      TWinControl.CNKeyDown
+005b8925 +02bd camimxe.exe  Vcl.Controls                      TControl.WndProc
+005bd3b9 +05c5 camimxe.exe  Vcl.Controls                      TWinControl.WndProc
+005db76c +006c camimxe.exe  Vcl.StdCtrls                      TButtonControl.WndProc
+005bc9fc +002c camimxe.exe  Vcl.Controls                      TWinControl.MainWndProc
+00540174 +0014 camimxe.exe  System.Classes                    StdWndProc
+777608c4 +0034 ntdll.dll                                      KiUserCallbackDispatcher
+75c862c2 +0022 KERNEL32.DLL                                   BaseThreadInitThunk
+
